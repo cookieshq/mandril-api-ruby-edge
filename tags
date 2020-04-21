@@ -1,0 +1,178 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+API	lib/mandrill.rb	/^    class API$/;"	c	class:Mandrill
+Error	lib/mandrill/errors.rb	/^    class Error < Exception$/;"	c	class:Mandrill
+Exports	lib/mandrill/api.rb	/^    class Exports$/;"	c	class:Mandrill
+IPProvisionLimitError	lib/mandrill/errors.rb	/^    class IPProvisionLimitError < Error$/;"	c	class:Mandrill
+Inbound	lib/mandrill/api.rb	/^    class Inbound$/;"	c	class:Mandrill
+Internal	lib/mandrill/api.rb	/^    class Internal$/;"	c	class:Mandrill
+InvalidCustomDNSError	lib/mandrill/errors.rb	/^    class InvalidCustomDNSError < Error$/;"	c	class:Mandrill
+InvalidCustomDNSPendingError	lib/mandrill/errors.rb	/^    class InvalidCustomDNSPendingError < Error$/;"	c	class:Mandrill
+InvalidDeleteDefaultPoolError	lib/mandrill/errors.rb	/^    class InvalidDeleteDefaultPoolError < Error$/;"	c	class:Mandrill
+InvalidDeleteNonEmptyPoolError	lib/mandrill/errors.rb	/^    class InvalidDeleteNonEmptyPoolError < Error$/;"	c	class:Mandrill
+InvalidEmptyDefaultPoolError	lib/mandrill/errors.rb	/^    class InvalidEmptyDefaultPoolError < Error$/;"	c	class:Mandrill
+InvalidKeyError	lib/mandrill/errors.rb	/^    class InvalidKeyError < Error$/;"	c	class:Mandrill
+InvalidRejectError	lib/mandrill/errors.rb	/^    class InvalidRejectError < Error$/;"	c	class:Mandrill
+InvalidTagNameError	lib/mandrill/errors.rb	/^    class InvalidTagNameError < Error$/;"	c	class:Mandrill
+InvalidTemplateError	lib/mandrill/errors.rb	/^    class InvalidTemplateError < Error$/;"	c	class:Mandrill
+Ips	lib/mandrill/api.rb	/^    class Ips$/;"	c	class:Mandrill
+Mandrill	lib/mandrill.rb	/^module Mandrill$/;"	m
+Mandrill	lib/mandrill/api.rb	/^module Mandrill$/;"	m
+Mandrill	lib/mandrill/errors.rb	/^module Mandrill$/;"	m
+Messages	lib/mandrill/api.rb	/^    class Messages$/;"	c	class:Mandrill
+Metadata	lib/mandrill/api.rb	/^    class Metadata$/;"	c	class:Mandrill
+MetadataFieldLimitError	lib/mandrill/errors.rb	/^    class MetadataFieldLimitError < Error$/;"	c	class:Mandrill
+NoSendingHistoryError	lib/mandrill/errors.rb	/^    class NoSendingHistoryError < Error$/;"	c	class:Mandrill
+PaymentRequiredError	lib/mandrill/errors.rb	/^    class PaymentRequiredError < Error$/;"	c	class:Mandrill
+PoorReputationError	lib/mandrill/errors.rb	/^    class PoorReputationError < Error$/;"	c	class:Mandrill
+Rejects	lib/mandrill/api.rb	/^    class Rejects$/;"	c	class:Mandrill
+Senders	lib/mandrill/api.rb	/^    class Senders$/;"	c	class:Mandrill
+ServiceUnavailableError	lib/mandrill/errors.rb	/^    class ServiceUnavailableError < Error$/;"	c	class:Mandrill
+Subaccounts	lib/mandrill/api.rb	/^    class Subaccounts$/;"	c	class:Mandrill
+Tags	lib/mandrill/api.rb	/^    class Tags$/;"	c	class:Mandrill
+Templates	lib/mandrill/api.rb	/^    class Templates$/;"	c	class:Mandrill
+UnknownExportError	lib/mandrill/errors.rb	/^    class UnknownExportError < Error$/;"	c	class:Mandrill
+UnknownIPError	lib/mandrill/errors.rb	/^    class UnknownIPError < Error$/;"	c	class:Mandrill
+UnknownInboundDomainError	lib/mandrill/errors.rb	/^    class UnknownInboundDomainError < Error$/;"	c	class:Mandrill
+UnknownInboundRouteError	lib/mandrill/errors.rb	/^    class UnknownInboundRouteError < Error$/;"	c	class:Mandrill
+UnknownMessageError	lib/mandrill/errors.rb	/^    class UnknownMessageError < Error$/;"	c	class:Mandrill
+UnknownMetadataFieldError	lib/mandrill/errors.rb	/^    class UnknownMetadataFieldError < Error$/;"	c	class:Mandrill
+UnknownPoolError	lib/mandrill/errors.rb	/^    class UnknownPoolError < Error$/;"	c	class:Mandrill
+UnknownSenderError	lib/mandrill/errors.rb	/^    class UnknownSenderError < Error$/;"	c	class:Mandrill
+UnknownSubaccountError	lib/mandrill/errors.rb	/^    class UnknownSubaccountError < Error$/;"	c	class:Mandrill
+UnknownTemplateError	lib/mandrill/errors.rb	/^    class UnknownTemplateError < Error$/;"	c	class:Mandrill
+UnknownTrackingDomainError	lib/mandrill/errors.rb	/^    class UnknownTrackingDomainError < Error$/;"	c	class:Mandrill
+UnknownUrlError	lib/mandrill/errors.rb	/^    class UnknownUrlError < Error$/;"	c	class:Mandrill
+UnknownWebhookError	lib/mandrill/errors.rb	/^    class UnknownWebhookError < Error$/;"	c	class:Mandrill
+Urls	lib/mandrill/api.rb	/^    class Urls$/;"	c	class:Mandrill
+Users	lib/mandrill/api.rb	/^    class Users$/;"	c	class:Mandrill
+ValidationError	lib/mandrill/errors.rb	/^    class ValidationError < Error$/;"	c	class:Mandrill
+Webhooks	lib/mandrill/api.rb	/^    class Webhooks$/;"	c	class:Mandrill
+Whitelists	lib/mandrill/api.rb	/^    class Whitelists$/;"	c	class:Mandrill
+activity	lib/mandrill/api.rb	/^        def activity(notify_email=nil, date_from=nil, date_to=nil, tags=nil, senders=nil, states=nil, api_keys=nil)$/;"	f	class:Mandrill.Exports
+add	lib/mandrill/api.rb	/^        def add(email, comment=nil)$/;"	f	class:Mandrill.Whitelists
+add	lib/mandrill/api.rb	/^        def add(email, comment=nil, subaccount=nil)$/;"	f	class:Mandrill.Rejects
+add	lib/mandrill/api.rb	/^        def add(id, name=nil, notes=nil, custom_quota=nil)$/;"	f	class:Mandrill.Subaccounts
+add	lib/mandrill/api.rb	/^        def add(name, from_email=nil, from_name=nil, subject=nil, code=nil, text=nil, publish=true, labels=[])$/;"	f	class:Mandrill.Templates
+add	lib/mandrill/api.rb	/^        def add(name, view_template=nil)$/;"	f	class:Mandrill.Metadata
+add	lib/mandrill/api.rb	/^        def add(url, description=nil, events=[])$/;"	f	class:Mandrill.Webhooks
+add_domain	lib/mandrill/api.rb	/^        def add_domain(domain)$/;"	f	class:Mandrill.Inbound
+add_domain	lib/mandrill/api.rb	/^        def add_domain(domain)$/;"	f	class:Mandrill.Senders
+add_route	lib/mandrill/api.rb	/^        def add_route(domain, pattern, url)$/;"	f	class:Mandrill.Inbound
+add_tracking_domain	lib/mandrill/api.rb	/^        def add_tracking_domain(domain)$/;"	f	class:Mandrill.Urls
+all_time_series	lib/mandrill/api.rb	/^        def all_time_series()$/;"	f	class:Mandrill.Tags
+call	lib/mandrill.rb	/^        def call(url, params={})$/;"	f	class:Mandrill.API
+cancel_scheduled	lib/mandrill/api.rb	/^        def cancel_scheduled(id)$/;"	f	class:Mandrill.Messages
+cancel_warmup	lib/mandrill/api.rb	/^        def cancel_warmup(ip)$/;"	f	class:Mandrill.Ips
+cast_error	lib/mandrill.rb	/^        def cast_error(body)$/;"	f	class:Mandrill.API
+check_custom_dns	lib/mandrill/api.rb	/^        def check_custom_dns(ip, domain)$/;"	f	class:Mandrill.Ips
+check_domain	lib/mandrill/api.rb	/^        def check_domain(domain)$/;"	f	class:Mandrill.Inbound
+check_domain	lib/mandrill/api.rb	/^        def check_domain(domain)$/;"	f	class:Mandrill.Senders
+check_tracking_domain	lib/mandrill/api.rb	/^        def check_tracking_domain(domain)$/;"	f	class:Mandrill.Urls
+content	lib/mandrill/api.rb	/^        def content(id)$/;"	f	class:Mandrill.Messages
+create_pool	lib/mandrill/api.rb	/^        def create_pool(pool)$/;"	f	class:Mandrill.Ips
+delete	lib/mandrill/api.rb	/^        def delete(email)$/;"	f	class:Mandrill.Whitelists
+delete	lib/mandrill/api.rb	/^        def delete(email, subaccount=nil)$/;"	f	class:Mandrill.Rejects
+delete	lib/mandrill/api.rb	/^        def delete(id)$/;"	f	class:Mandrill.Subaccounts
+delete	lib/mandrill/api.rb	/^        def delete(id)$/;"	f	class:Mandrill.Webhooks
+delete	lib/mandrill/api.rb	/^        def delete(ip)$/;"	f	class:Mandrill.Ips
+delete	lib/mandrill/api.rb	/^        def delete(name)$/;"	f	class:Mandrill.Metadata
+delete	lib/mandrill/api.rb	/^        def delete(name)$/;"	f	class:Mandrill.Templates
+delete	lib/mandrill/api.rb	/^        def delete(tag)$/;"	f	class:Mandrill.Tags
+delete_domain	lib/mandrill/api.rb	/^        def delete_domain(domain)$/;"	f	class:Mandrill.Inbound
+delete_pool	lib/mandrill/api.rb	/^        def delete_pool(pool)$/;"	f	class:Mandrill.Ips
+delete_route	lib/mandrill/api.rb	/^        def delete_route(id)$/;"	f	class:Mandrill.Inbound
+domains	lib/mandrill/api.rb	/^        def domains()$/;"	f	class:Mandrill.Inbound
+domains	lib/mandrill/api.rb	/^        def domains()$/;"	f	class:Mandrill.Senders
+exports	lib/mandrill.rb	/^        def exports()$/;"	f	class:Mandrill.API
+inbound	lib/mandrill.rb	/^        def inbound()$/;"	f	class:Mandrill.API
+info	lib/mandrill/api.rb	/^        def info()$/;"	f	class:Mandrill.Users
+info	lib/mandrill/api.rb	/^        def info(address)$/;"	f	class:Mandrill.Senders
+info	lib/mandrill/api.rb	/^        def info(id)$/;"	f	class:Mandrill.Exports
+info	lib/mandrill/api.rb	/^        def info(id)$/;"	f	class:Mandrill.Messages
+info	lib/mandrill/api.rb	/^        def info(id)$/;"	f	class:Mandrill.Subaccounts
+info	lib/mandrill/api.rb	/^        def info(id)$/;"	f	class:Mandrill.Webhooks
+info	lib/mandrill/api.rb	/^        def info(ip)$/;"	f	class:Mandrill.Ips
+info	lib/mandrill/api.rb	/^        def info(name)$/;"	f	class:Mandrill.Templates
+info	lib/mandrill/api.rb	/^        def info(tag)$/;"	f	class:Mandrill.Tags
+initialize	lib/mandrill.rb	/^        def initialize(apikey=nil, debug=false)$/;"	f	class:Mandrill.API
+initialize	lib/mandrill/api.rb	/^        def initialize(master)$/;"	f	class:Mandrill.Exports
+initialize	lib/mandrill/api.rb	/^        def initialize(master)$/;"	f	class:Mandrill.Inbound
+initialize	lib/mandrill/api.rb	/^        def initialize(master)$/;"	f	class:Mandrill.Internal
+initialize	lib/mandrill/api.rb	/^        def initialize(master)$/;"	f	class:Mandrill.Ips
+initialize	lib/mandrill/api.rb	/^        def initialize(master)$/;"	f	class:Mandrill.Messages
+initialize	lib/mandrill/api.rb	/^        def initialize(master)$/;"	f	class:Mandrill.Metadata
+initialize	lib/mandrill/api.rb	/^        def initialize(master)$/;"	f	class:Mandrill.Rejects
+initialize	lib/mandrill/api.rb	/^        def initialize(master)$/;"	f	class:Mandrill.Senders
+initialize	lib/mandrill/api.rb	/^        def initialize(master)$/;"	f	class:Mandrill.Subaccounts
+initialize	lib/mandrill/api.rb	/^        def initialize(master)$/;"	f	class:Mandrill.Tags
+initialize	lib/mandrill/api.rb	/^        def initialize(master)$/;"	f	class:Mandrill.Templates
+initialize	lib/mandrill/api.rb	/^        def initialize(master)$/;"	f	class:Mandrill.Urls
+initialize	lib/mandrill/api.rb	/^        def initialize(master)$/;"	f	class:Mandrill.Users
+initialize	lib/mandrill/api.rb	/^        def initialize(master)$/;"	f	class:Mandrill.Webhooks
+initialize	lib/mandrill/api.rb	/^        def initialize(master)$/;"	f	class:Mandrill.Whitelists
+internal	lib/mandrill.rb	/^        def internal()$/;"	f	class:Mandrill.API
+ips	lib/mandrill.rb	/^        def ips()$/;"	f	class:Mandrill.API
+list	lib/mandrill/api.rb	/^        def list()$/;"	f	class:Mandrill.Exports
+list	lib/mandrill/api.rb	/^        def list()$/;"	f	class:Mandrill.Ips
+list	lib/mandrill/api.rb	/^        def list()$/;"	f	class:Mandrill.Metadata
+list	lib/mandrill/api.rb	/^        def list()$/;"	f	class:Mandrill.Senders
+list	lib/mandrill/api.rb	/^        def list()$/;"	f	class:Mandrill.Tags
+list	lib/mandrill/api.rb	/^        def list()$/;"	f	class:Mandrill.Urls
+list	lib/mandrill/api.rb	/^        def list()$/;"	f	class:Mandrill.Webhooks
+list	lib/mandrill/api.rb	/^        def list(email=nil)$/;"	f	class:Mandrill.Whitelists
+list	lib/mandrill/api.rb	/^        def list(email=nil, include_expired=false, subaccount=nil)$/;"	f	class:Mandrill.Rejects
+list	lib/mandrill/api.rb	/^        def list(label=nil)$/;"	f	class:Mandrill.Templates
+list	lib/mandrill/api.rb	/^        def list(q=nil)$/;"	f	class:Mandrill.Subaccounts
+list_pools	lib/mandrill/api.rb	/^        def list_pools()$/;"	f	class:Mandrill.Ips
+list_scheduled	lib/mandrill/api.rb	/^        def list_scheduled(to=nil)$/;"	f	class:Mandrill.Messages
+messages	lib/mandrill.rb	/^        def messages()$/;"	f	class:Mandrill.API
+metadata	lib/mandrill.rb	/^        def metadata()$/;"	f	class:Mandrill.API
+parse	lib/mandrill/api.rb	/^        def parse(raw_message)$/;"	f	class:Mandrill.Messages
+pause	lib/mandrill/api.rb	/^        def pause(id)$/;"	f	class:Mandrill.Subaccounts
+ping	lib/mandrill/api.rb	/^        def ping()$/;"	f	class:Mandrill.Users
+pool_info	lib/mandrill/api.rb	/^        def pool_info(pool)$/;"	f	class:Mandrill.Ips
+provision	lib/mandrill/api.rb	/^        def provision(warmup=false, pool=nil)$/;"	f	class:Mandrill.Ips
+publish	lib/mandrill/api.rb	/^        def publish(name)$/;"	f	class:Mandrill.Templates
+read_configs	lib/mandrill.rb	/^        def read_configs()$/;"	f	class:Mandrill.API
+rejects	lib/mandrill.rb	/^        def rejects()$/;"	f	class:Mandrill.API
+rejects	lib/mandrill/api.rb	/^        def rejects(notify_email=nil)$/;"	f	class:Mandrill.Exports
+render	lib/mandrill/api.rb	/^        def render(template_name, template_content, merge_vars=nil)$/;"	f	class:Mandrill.Templates
+reschedule	lib/mandrill/api.rb	/^        def reschedule(id, send_at)$/;"	f	class:Mandrill.Messages
+resume	lib/mandrill/api.rb	/^        def resume(id)$/;"	f	class:Mandrill.Subaccounts
+routes	lib/mandrill/api.rb	/^        def routes(domain)$/;"	f	class:Mandrill.Inbound
+search	lib/mandrill/api.rb	/^        def search(q)$/;"	f	class:Mandrill.Urls
+search	lib/mandrill/api.rb	/^        def search(query='*', date_from=nil, date_to=nil, tags=nil, senders=nil, api_keys=nil, limit=100)$/;"	f	class:Mandrill.Messages
+search_time_series	lib/mandrill/api.rb	/^        def search_time_series(query='*', date_from=nil, date_to=nil, tags=nil, senders=nil)$/;"	f	class:Mandrill.Messages
+send	lib/mandrill/api.rb	/^        def send(message, async=false, ip_pool=nil, send_at=nil)$/;"	f	class:Mandrill.Messages
+send_raw	lib/mandrill/api.rb	/^        def send_raw(raw_message, from_email=nil, from_name=nil, to=nil, async=false, ip_pool=nil, send_at=nil, return_path_domain=nil)$/;"	f	class:Mandrill.Messages
+send_raw	lib/mandrill/api.rb	/^        def send_raw(raw_message, to=nil, mail_from=nil, helo=nil, client_address=nil)$/;"	f	class:Mandrill.Inbound
+send_template	lib/mandrill/api.rb	/^        def send_template(template_name, template_content, message, async=false, ip_pool=nil, send_at=nil)$/;"	f	class:Mandrill.Messages
+senders	lib/mandrill.rb	/^        def senders()$/;"	f	class:Mandrill.API
+senders	lib/mandrill/api.rb	/^        def senders()$/;"	f	class:Mandrill.Users
+set_custom_dns	lib/mandrill/api.rb	/^        def set_custom_dns(ip, domain)$/;"	f	class:Mandrill.Ips
+set_pool	lib/mandrill/api.rb	/^        def set_pool(ip, pool, create_pool=false)$/;"	f	class:Mandrill.Ips
+start_warmup	lib/mandrill/api.rb	/^        def start_warmup(ip)$/;"	f	class:Mandrill.Ips
+subaccounts	lib/mandrill.rb	/^        def subaccounts()$/;"	f	class:Mandrill.API
+tags	lib/mandrill.rb	/^        def tags()$/;"	f	class:Mandrill.API
+templates	lib/mandrill.rb	/^        def templates()$/;"	f	class:Mandrill.API
+time_series	lib/mandrill/api.rb	/^        def time_series(address)$/;"	f	class:Mandrill.Senders
+time_series	lib/mandrill/api.rb	/^        def time_series(name)$/;"	f	class:Mandrill.Templates
+time_series	lib/mandrill/api.rb	/^        def time_series(tag)$/;"	f	class:Mandrill.Tags
+time_series	lib/mandrill/api.rb	/^        def time_series(url)$/;"	f	class:Mandrill.Urls
+tracking_domains	lib/mandrill/api.rb	/^        def tracking_domains()$/;"	f	class:Mandrill.Urls
+update	lib/mandrill/api.rb	/^        def update(id, name=nil, notes=nil, custom_quota=nil)$/;"	f	class:Mandrill.Subaccounts
+update	lib/mandrill/api.rb	/^        def update(id, url, description=nil, events=[])$/;"	f	class:Mandrill.Webhooks
+update	lib/mandrill/api.rb	/^        def update(name, from_email=nil, from_name=nil, subject=nil, code=nil, text=nil, publish=true, labels=nil)$/;"	f	class:Mandrill.Templates
+update	lib/mandrill/api.rb	/^        def update(name, view_template)$/;"	f	class:Mandrill.Metadata
+update_route	lib/mandrill/api.rb	/^        def update_route(id, pattern=nil, url=nil)$/;"	f	class:Mandrill.Inbound
+urls	lib/mandrill.rb	/^        def urls()$/;"	f	class:Mandrill.API
+users	lib/mandrill.rb	/^        def users()$/;"	f	class:Mandrill.API
+verify_domain	lib/mandrill/api.rb	/^        def verify_domain(domain, mailbox)$/;"	f	class:Mandrill.Senders
+webhooks	lib/mandrill.rb	/^        def webhooks()$/;"	f	class:Mandrill.API
+whitelist	lib/mandrill/api.rb	/^        def whitelist(notify_email=nil)$/;"	f	class:Mandrill.Exports
+whitelists	lib/mandrill.rb	/^        def whitelists()$/;"	f	class:Mandrill.API
